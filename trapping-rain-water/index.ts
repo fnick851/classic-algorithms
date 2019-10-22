@@ -1,14 +1,14 @@
 // Input: [0,1,0,2,1,0,1,3,2,1,2,1]
 // Output: 6
 
-const input = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+const input: number[] = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 
-function numTrapRain(input) {
-    const max = Math.max(...input)
-    let sum = 0
-    for (let i = 0; i < max; i++) {
+function numTrapRain(input: number[]) {
+    const max: number = Math.max(...input)
+    let sum: number = 0
+    for (let i: number = 0; i < max; i++) {
         // look at each layer with 1 unit depth trap
-        const layer = input.map(el => {
+        const layer: number[] = input.map((el: number) => {
             if (el - i < 1) {
                 return 0
             } else {
@@ -32,6 +32,6 @@ function numTrapRain(input) {
     return sum
 }
 
-const result = numTrapRain(input)
+const result: number = numTrapRain(input)
 
 console.log("result is:", result)
