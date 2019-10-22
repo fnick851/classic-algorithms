@@ -1,4 +1,4 @@
-## There are not machine learning or artificial intelligence algorithms.
+## These are not machine learning or artificial intelligence algorithms.
 
 ```bash
 # write and run with TypeScript and Node
