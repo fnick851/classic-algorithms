@@ -1,7 +1,7 @@
 ## These are not machine learning or artificial intelligence algorithms.
 
 ```bash
-# write and run with TypeScript and Node
-# in each folder
-tsc index.ts && node index.js
+# write and run with TypeScript and Deno
+brew install deno # if macos
+deno [filename.ts]
 ```
