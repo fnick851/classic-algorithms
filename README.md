@@ -1,9 +1,10 @@
-## These are not machine learning or artificial intelligence algorithms.
+# Algorithms and data structures
+
+...in TypeScript
 
 ```bash
-# write and run with TypeScript and Deno
-brew install deno # if macos
-deno [filename.ts]
+# compile and watch TS
+npm run tsc -- --watch
+# run and watch JS
+npm run mon out/[filename]
 ```
-
-[Deno](https://deno.land)
