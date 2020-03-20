@@ -72,4 +72,4 @@ class MyCircularQueue {
 // circularQueue.Rear();  // return 4
 
 // test
-// const queue = new MyCircularQueue(4)
+const queue = new MyCircularQueue(4)
