@@ -1,0 +1,26 @@
+{
+  "name": "classic-algorithms",
+  "version": "1.0.0",
+  "description": "algorithms and data structures written in TypeScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "mon": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fnick851/classic-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fnick851/classic-algorithms/issues"
+  },
+  "homepage": "https://github.com/fnick851/classic-algorithms#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
