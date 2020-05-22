@@ -20,9 +20,9 @@
   "homepage": "https://github.com/fnick851/classic-algorithms#readme",
   "dependencies": {},
   "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^1.19.1",
     "ts-node": "^8.10.1",
-    "typescript": "^3.9.3",
-    "nodemon": "^2.0.2",
-    "prettier": "^1.19.1"
+    "typescript": "^3.9.3"
   }
 }
