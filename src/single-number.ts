@@ -23,6 +23,7 @@
 // }
 
 /// method3
+/// XOR bit-wise operation
 const singleNumber = (nums: number[]) => nums.reduce((a, b) => a ^ b)
 
 // check result
